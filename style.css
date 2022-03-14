@@ -1,0 +1,360 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500&family=Roboto:wght@300;500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f3fd;
+    margin: 0;
+}
+br{
+    margin: 0;
+}
+
+/* navigation sections start */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 42px;
+}
+.menu li{
+    padding-right:36px ;
+    font-size: 16px;
+    font-weight: 500;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    border-bottom: 2px solid rgba(184, 179, 255, 0.849);
+    border-radius: 1px;
+}
+.button{
+    padding-right: 200px;
+    padding-top: 42px;
+}
+.login-button {
+    
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    height: 35px;
+    width: 140px;
+    border: none;
+    position: static;
+}
+.fa-arrow-right-to-bracket{
+    padding-right: 10px;
+}
+/* navigation sections end */
+
+
+/* header section styles start*/
+.outer-header{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 677px;   
+}
+.inner-header{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+.write{
+    color: white;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+.write h1{
+    font-size: 60px;
+    margin: 0;
+   
+}
+.image img{
+    width: 556.01px;
+    height: 438px;
+    padding-right: 200px;
+}
+ .live-button{
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 160px;
+    border: none;
+    
+}
+.live-button:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+.fa-arrow-right-long{
+    padding-left: 10px;
+   
+}
+
+/* header section styles end*/
+
+/* start main section */
+.players-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.players{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+      
+}
+.player{
+    background-color: white;
+    width: 330px;
+    height: 450px;
+    padding: 15px;
+
+}
+.player img{
+    width: 330px;
+    height: 256px;
+}
+.player h2{
+    font-weight: 700;
+    font-size: 28px;
+    margin: 10px 0;
+}
+.player p{
+    color: #6C6C6C;
+}
+
+/* <!-- highlight-section start --> */
+
+.highlight-section{
+    margin-top: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.highlighted-info{
+    width: 469px;
+    height: 309px;
+    /* margin-top: 224px; */
+}
+.highlighted-info h1{
+    margin: 0;
+    font-size: 48px;
+    
+}
+.highlighted-info p{
+    width: 404px;
+    height: 113px;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.highlighted-image img{
+    width: 567px;
+    height: 427px;
+    margin-left: 75px;
+}
+
+
+/* <!-- only-image section --> */
+.only-image img{
+    width: 483.87px;
+    height: 110px;
+    margin-top: 158px;
+}
+.only-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*  start footer sections */
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon i{
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.copy {
+    margin-bottom: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/*  end footer sections */
+
+
+
+/* media qurey start */
+
+/* phone devices */
+@media only screen and (max-width:688px) {
+    
+    /* Top button section start*/
+    .button{
+        margin-left: 250px;
+        padding-right: 0;
+        padding-top: 30px;
+        
+    }
+    /* Top button section start*/
+
+    /* Header section start */
+    .outer-header {        
+        width: 100%;
+        height: 695px;       
+    }
+    .menu{
+        display: none;
+    }
+    .login-button {
+    
+        
+        font-size: 11px;
+        height: 30px;
+        width: 100px;
+        border: none;
+        position: static;
+    }
+    
+    .inner-header{
+        padding-top: 40px;
+        display: block;
+        justify-content: 0;
+        align-items: 0; 
+        
+    }
+    .write{
+        color: white;
+        padding-left: 20px;
+        padding-bottom: 50px;
+    }
+    .write h1{
+        font-size: 30px;
+        margin: 0;
+       
+    }
+    .live-button{
+        background-color: #E02C6D;
+        color: white;
+        font-size: 16px;
+        height: 30px;
+        width: 130px;
+        border: none;
+        
+    }
+    .live-button:hover{
+        transform: scale(1.2);
+        transition: transform 2s ease-in-out;
+    }
+    .fa-arrow-right-long{
+        padding-left: 5px;
+       
+    }
+    .image img{
+        width: 330px;
+        height: 350px;
+        padding-left: 20px ;
+        margin-bottom: 10px;
+    }
+
+    /* Header section end */
+
+    /* player section start */
+    .players-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .players{
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px 0;
+          
+    }
+    .player{
+        background-color: white;
+        width: 310px;
+        height: 450px;
+        padding: 15px;
+    }
+    .player img{
+        width: 310px;
+    }
+    
+    /* player section end */
+
+    /* highlight section start */
+    .highlight-section{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .highlighted-info{
+        width: 310px;
+        height: 209px;
+        padding-left: 20px;
+    }
+    .highlighted-info h1{
+        margin: 0;
+        font-size: 30px;    
+    }
+    .highlighted-info p{
+        width: 310px;  
+    }
+    .highlighted-image img{
+        width: 310px;
+        height: 248px;
+        margin-left: 0;
+        margin-top: 80px;
+        padding:20px ;
+        
+    }
+    /* highlight section start */
+
+    /* only-image section start */
+    .only-image img{
+        width: 250px;
+        height: 94px;
+        margin-top: 58px;
+    }
+    .only-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+}
