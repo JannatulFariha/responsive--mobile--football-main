@@ -17,6 +17,7 @@ header{
 
 /* navigation sections start */
 .nav{
+    background-color: #2D25A0;
     display: flex;
     justify-content: space-around;
     align-items: center;
