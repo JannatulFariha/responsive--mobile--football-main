@@ -17,7 +17,7 @@ header{
 
 /* navigation sections start */
 .nav{
-    background-color: #2D25A0;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,6 +32,7 @@ header{
     padding-right:36px ;
     font-size: 16px;
     font-weight: 500;
+    
 }
 .menu a{
     text-decoration: none;
@@ -69,6 +70,7 @@ header{
 }
 .inner-header{
     padding-top: 70px;
+    width: 90%;
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -87,7 +89,7 @@ header{
 .image img{
     width: 556.01px;
     height: 438px;
-    padding-right: 100px;
+    
 }
  .live-button{
     background-color: #E02C6D;
@@ -230,11 +232,18 @@ header{
 @media only screen and (max-width:688px) {
     
     /* Top button section start*/
-    .button{
-        margin-left: 250px;
-        padding-right: 0;
-        padding-top: 30px;
-        
+    .nav{
+        width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    }
+    .menu ul{
+    
+    display: none;
+    
+    
     }
     /* Top button section start*/
 
@@ -295,6 +304,7 @@ header{
         width: 330px;
         height: 350px;
         padding-left: 20px ;
+        padding-right: 0;
         margin-bottom: 10px;
     }
 
