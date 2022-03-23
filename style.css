@@ -202,8 +202,8 @@ header{
 .footer-icon i{
     font-size: 20px;
     color: gray;
-    height: 35px;
-    width: 35px;
+    height: 45px;
+    width: 45px;
     border-radius: 50%;
     background-color: lightgray;
     display: flex;
@@ -211,7 +211,10 @@ header{
     align-items: center;
     margin: 10px;
 }
-
+.footer-icon i:hover{
+    font-size: 25px;
+    color: rgba(12, 12, 250, 0.767); 
+}
 .copy {
     margin-bottom: 63px;
     display: flex;
